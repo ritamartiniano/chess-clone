@@ -6,6 +6,5 @@ int main(int argumentCount, char * arguments[])
 {
 	Game game;
 	game.Update();
-	game.CleanUp();
 	return 0;
 }

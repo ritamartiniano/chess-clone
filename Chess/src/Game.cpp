@@ -40,6 +40,7 @@ Game::Game()
 
 Game::~Game()
 {
+	CleanUp();
 }
 
 void Game::Update()
